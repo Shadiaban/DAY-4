@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'General Sans', sans-serif; 
+}
+
+nav{
+    position:sticky;
+    display: flex;
+    background-color:#D1D2CF ;
+    justify-content: space-between;
+}
+
+
+.logo{
+   
+    justify-content:space-between;
+    align-items:center;
+    text-decoration: none;
+    color: grey;
+    font-weight: bolder;
+    padding: 15px 40px;  
+    position: sticky;  
+}
+
+.navbar{
+    display: flex;
+    margin-top: 3px;
+    flex-basis: 250px;
+    flex-direction:row ;
+    list-style: none;
+    text-decoration:none;
+    color: darkslategrey;
+    justify-content: center;
+    font-weight: bold;
+    gap: 50px;
+}
+
+.btn{
+    
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px 5px;
+        
+    
+}
+
+.buttonn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    
+}
+
+.content{
+    background-color: #DBD7CF;
+    display: flex;
+    position: relative;
+}
+
+.content-img{
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dw{
+    font-family: 'General Sans', sans-serif; 
+    color: #282828;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    
+
+}
+
+.dp{
+color: lightslategrey;
+font-family: 'General Sans', sans-serif;
+font-weight: bold;
+font-size: xx-small; 
+
+}
+
+
+
+.heading{
+    
+    color: #282828;
+    font-family: 'General Sans', sans-serif;
+    margin-top: 11px;
+    margin-left: 10px;
+
+
+}
+
+.images{
+    margin-left: 300px;
+    display: flex;
+    width:120vh;
+    height: 40vh;
+    gap:10px;
+    overflow:hidden ;
+    justify-content: space-evenly;
+    background-color: darkgray;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+.img{
+   width: 200px;
+   height: 200px;
+   padding: 10px;
+   background-color: gray;
+   margin-left: 60px;
+   margin-top: 70px;
+   margin-right: 100px;
+   padding-bottom: 70px;
+  border-radius: 10%;
+  border: 1px solid white;
+}
+.img img{
+    width: 150px;
+    height: 100%;
+    
+    
+}
+
+
+.img p{
+    margin-left: 10px;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+.Collections{
+    background-color: gainsboro;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    position: sticky;
+    
+    
+}
+
+.btnn{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin-left: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid white;
+    
+
+}
+
+.btnn:hover{
+    background-color: #282828;
+}
+
+.all{
+    background-color:white;
+}
+
+.imagehover{
+     width: 500px;
+     height: 340px;
+     position: absolute;
+     right: -300px;
+     bottom: 0;
+     opacity: 0;
+     transition: 0.8s;
+}
+
+.content:hover .imagehover{
+    right: 20px;
+    opacity: 1;
+}
+
